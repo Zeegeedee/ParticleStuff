@@ -1,6 +1,6 @@
 # CHANGELOG:
 
-## V1.1.0:
+## v1.1.0:
 - Added 2 more particles (Soil and Mud)
 - Added more physics (Chemical? reaction) which I will not tell. Try finding it out for yourself!
 
