@@ -2,7 +2,7 @@
 
 ## v1.1.0:
 - Added 2 more particles (Soil and Mud)
-- Added more physics (Chemical? reaction) which I will not tell. Try finding it out for yourself!
+- Added more physics (Chemical-ish (Hydrolisis) reaction) which I will not tell. Try finding it out for yourself!
 
 ## v1.0.1:
 - Small bug fixes
