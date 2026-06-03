@@ -11,8 +11,10 @@ running = True
 CELL_SIZE = 5
 GRID_W, GRID_H = 100, 100
 
+VERSION = "1.0.1"
+ASSETS_HALF_DIRECTORY = f"ParticleStuff-{VERSION}"
 grid = [[None for y in range(GRID_H)] for x in range(GRID_W)]
-assets = os.path.join("Pygame Practice", "Sandbox particles", "assets")
+assets = os.path.join("", "assets")
 materials = {
     "sand": {
         "color": (218, 201, 125),
