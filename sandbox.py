@@ -9,9 +9,9 @@ clock = pygame.time.Clock()
 running = True
 CELL_SIZE = 5
 GRID_W, GRID_H = 100, 100
-VERSION = "1.0.2"
+VERSION = "1.1.1"
 print(f"Version: v{VERSION}")
-cwd = os.getcwd()
+cwd = os.path.dirname(os.path.abspath(__file__))
 grid = [[None for y in range(GRID_H)] for x in range(GRID_W)]
 assets = os.path.join(cwd, "assets")
 
@@ -216,7 +216,7 @@ while running:
                 
                 if ptype == "mud":
                     
-                    randTick = random.randint(1,10)
+                    randTick = random.randint(1,17)
                     # Fall down
                     if below is None:
                         grid[x][y+1] = current
